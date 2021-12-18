@@ -1,0 +1,33 @@
+Index: aula16 - Manipulando Valores/aula16.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"\"\"\n:s - Texto (strings)\n:d - Inteiros\n:f - float\n:.(número)f - Quantidade de casas decimais após a vírgula\n:(caractere)(> ou < ou ^)(Quantidade)(Tipo - s, d ou f)\n\n> - Esquerda\n< - Direita\n^ - Centro\n\"\"\"\n\nnome = 'Sara tavares'\nnum = 22\n\nprint(nome)\nprint(type(f'{nome:*^20}'.title().casefold()))\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/aula16 - Manipulando Valores/aula16.py b/aula16 - Manipulando Valores/aula16.py
+--- a/aula16 - Manipulando Valores/aula16.py	(revision ab31dd24bff0fbf2e280da851053a5845b11e9ec)
++++ b/aula16 - Manipulando Valores/aula16.py	(date 1638897795984)
+@@ -14,4 +14,4 @@
+ num = 22
+ 
+ print(nome)
+-print(type(f'{nome:*^20}'.title().casefold()))
++print(f'{nome:*^20}'.title())
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1638809815934)
++++ b/.idea/vcs.xml	(date 1638809815934)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
